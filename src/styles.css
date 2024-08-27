@@ -1,18 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Pacifico&display=swap');
+
 /* Estilos generales  */
 body {
-    font-family: arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: "Allura", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+      
+    background-color: #bde0fe;
     margin: 0;
     padding: 0;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url('/imagenes/fleurs\ aestetics.jfif');
+    background-size: cover; 
 }
 
 /* Estilos para el contenedor principal  */
 #app {
-    background-color: white;
+    background-color: #ffafcc;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -38,7 +46,7 @@ input {
 /* estilos al botón*/
 button{
     padding: 5px 8px;
-    background-color: #007bff;
+    background-color: #9626d6;
     color: white;
     border: none;
     border-radius: 3px;
